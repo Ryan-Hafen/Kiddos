@@ -1,1 +1,1 @@
-CS 313 PHP Base Code
+Kiddos PHP Base Code
