@@ -1,0 +1,94 @@
+/* the styles for the HTML elements */
+html {
+    background-color: lightcyan;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 2em;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+header {
+    border-bottom: 2px solid black;
+    padding: .5em 0;
+}
+header h1 {
+    color: black;
+}
+section {
+    float: left;
+    width: 800px;
+}
+footer {
+    clear: both;
+    border-top: 2px solid black;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+}
+h1 {
+    font-size: 150%;
+    margin: .5em 0;
+}
+h2 {
+    font-size: 120%;
+    margin: .25em 0 .5em;
+}
+h1, h2 {
+    color: rgb(208, 133, 4);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 1em;
+}
+li {
+    padding-bottom: 0.5em;
+}
+a {
+    color: navy;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: goldenrod;
+}
+br {
+    clear: left;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+td, th {
+    border: 1px solid black;
+    padding: .2em .5em .2em .5em;
+    text-align: left;
+}
+form {
+
+}
+#main-page-ul {
+    margin-top: 1em;
+}
+.form {
+    margin: .5em 0;
+    width: 100%;
+}
+.form label {
+    width: 6em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
+.form input {
+    float: left;
+}
+.form input[text] {
+    width: 15em;
+}
